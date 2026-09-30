@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --milk: #f7f0e4;
+  --champ: #e8d5b0;
+  --gold: #c9a35e;
+  --wine: #6d0713;
+  --deep: #3d040b;
+  --gold-g: linear-gradient(135deg, #f3dfa2, #c99a46 50%, #e9cd83);
+}
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+body {
+  background: var(--deep);
+  color: var(--milk);
+  font-family: var(--f-sans), system-ui, sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: var(--wine);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+.orn {
+  height: 36px;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='72' height='38' viewBox='0 0 64 36'><g fill='none' stroke='%23c9a35e' stroke-width='1.5' stroke-linecap='round'><path d='M32 20C28 6 11 6 11 16 11 25 22 25 22 18 22 13 16 13 16 16'/><path d='M32 20C36 6 53 6 53 16 53 25 42 25 42 18 42 13 48 13 48 16'/><path d='M32 10l4 6-4 6-4-6z'/></g></svg>")
+    repeat-x center/auto 100%;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto;
+  }
+}
