@@ -19,10 +19,10 @@ const script = Marck_Script({
 });
 
 export const metadata: Metadata = {
-  title: "Кыз узатуу — Айзирек",
-  description: "Айзиректин Кыз узатуу тоюна чакыруу — 2026-жылдын 16-сентябры.",
+  title: "Кыз узатуу — Сурмаш",
+  description: "Сурмаш кыз узатуу тоюна чакыруу — 2026-жылдын 8-октябры",
   openGraph: {
-    title: "Кыз узатуу — Айзирек",
+    title: "Кыз узатуу — Сурмаш",
     description: "Тойго чакыруу",
     images: ["/heroImg.png"],
     locale: "ky_KG",
