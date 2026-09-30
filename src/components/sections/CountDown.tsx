@@ -23,7 +23,9 @@ export default function Countdown() {
   return (
     <section className={`${s.sec} ${s.light}`}>
       <Reveal>
-        <p className={s.eyebrow}>Кутуу ирмемдери</p>
+        <p style={{ fontSize: 15, color: "black" }} className={s.eyebrow}>
+          Кутуу ирмемдери
+        </p>
         <h2 className={s.h2}>Бактылуу күнгө чейин</h2>
         <div className={s.count}>
           {cells.map(([n, l]) => (
