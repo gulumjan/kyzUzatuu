@@ -1,10 +1,10 @@
-// ВСЁ, ЧТО НУЖНО МЕНЯТЬ — ЗДЕСЬ
+
 export const config = {
   bride: "Сурмаш",
   groom: "Нуртилек",
   parents: "Шумкар, Миргул",
   date: "2026-10-08T16:00:00+06:00",
-  dateText: "2026-жылдын 8-октябры",
+  dateText: "2026-жыл 8-октябрь",
   weekday: "бейшемби",
   month: "Октябрь",
   time: "16:00",
@@ -15,7 +15,7 @@ export const config = {
   gallery: [
     "https://i.pinimg.com/1200x/1d/ab/b4/1dabb44bc0554fa04494792a0c6f1bb7.jpg",
     "https://i.pinimg.com/736x/3c/0a/1f/3c0a1fa64890402adf04c24efed14794.jpg",
-  ] as string[], // ["/g1.jpg","/g2.jpg","/g3.jpg"]
+  ] as string[], 
   music: "/music.mp3",
   maxGuests: 5,
   program: [
